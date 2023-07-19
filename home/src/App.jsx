@@ -8,8 +8,9 @@ import Footer from "./Footer";
 const App = () => (
   <div className="mt-10 text-3xl mx-auto max-w-6xl">
     <Header/>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
+    <div className="my-10">
+      Home Page Content
+   </div>
    <Footer/>
   </div>
 );
